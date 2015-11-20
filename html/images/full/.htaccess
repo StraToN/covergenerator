@@ -1,0 +1,4 @@
+#RewriteEngine  on
+#RewriteCond    %{HTTP_REFERER} !^$
+#RewriteCond    %{HTTP_REFERER} !^http://www\.monsite\.com [NC]
+#RewriteRule    \.(jpg|png)$ - [F,NC,L]
